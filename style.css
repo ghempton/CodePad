@@ -31,9 +31,9 @@ html {
 	background: #f5f4f4 url(img/bg-stripe.png);
 }
 body {
-	font: normal .81em/1.5em Arial, Helvetica, sans-serif;
+	font: normal .81em/1.5em Helvetica, Arial, sans-serif;
 	margin: 0;
-	color: #6f5e4e;
+	color: #003555;
 }
 p {
 	margin: 0 0 1em;
@@ -42,28 +42,28 @@ em, i {
 	font: normal italic 100% Georgia, "Times New Roman", Times, serif;
 }
 a {
-	color: #644527;
+	color: #003555;
 	text-decoration: underline;
 	outline: none;
 }
 a:hover {
-	color: #ca6c18;
+	color: #38b1cf;
 }
 big {
 	font-size: 1.2em;
 	font-weight: bold;
 	line-height: 1.46em;
-	color: #887662;
+	color: #073c6b;
 }
 small {
 	font-size: .9em;
-	color: #9f8c77;
+	color: #0f4ea4;
 }
 blockquote {
 	background: url(img/blockquote.png) no-repeat 4px 0;
 	padding: 0 0 0 26px;
 	font: italic 1.1em/1.4em Georgia, "Times New Roman", Times, serif;
-	color: #897662;
+	color: #073c6b;
 }
 ul {
 	list-style: none;
@@ -81,7 +81,7 @@ ol li {
 }
 h1, h2, h3, h4, h5, h6 {
 	line-height: 2em;
-	color: #644527;
+	color: #003555;
 }
 h1 {
 	font-size: 2em;
@@ -96,7 +96,7 @@ h4 {
 	font-size: 1.2em;
 }
 input, textarea, select {
-	font: normal 1em/1.4em Arial, Helvetica, sans-serif;
+	font: normal 1em/1.4em Helvetica, Arial, sans-serif;
 }
 input[type=text], input[type=password], textarea {
 	background: #fdfde8;
@@ -107,7 +107,7 @@ input[type=text], input[type=password], textarea {
 	-moz-border-radius: 4px;
 }
 textarea:focus, input[type=password]:focus, input[type=text]:focus {
-	border: solid 1px #ca6c18;
+	border: solid 1px #176abe;
 	background: #fff;
 	outline: none;
 	box-shadow: 0 1px 4px #c5c5a2;
@@ -118,7 +118,7 @@ textarea:focus, input[type=password]:focus, input[type=text]:focus {
 input[type=reset], input[type=submit] {
 	font-weight: bold;
 	color: #fff;
-	background: #402206 url(img/form-button-bg.png) repeat-x;
+	background: #003555 url(img/form-button-bg.png) repeat-x;
 	border: solid 1px #402206;
 	padding: 4px 15px;
 
@@ -126,12 +126,12 @@ input[type=reset], input[type=submit] {
 	-moz-border-radius: 4px;
 }
 input[type=reset]:hover, input[type=submit]:hover {
-	background: #74300c url(img/form-button-bg.png) repeat-x 0 -91px;
-	border: solid 1px #74300c;
+	background: #003555 url(img/form-button-bg.png) repeat-x 0 -91px;
+	border: solid 1px #003555;
 }
 
 #pagewrapper {
-	width: 980px;
+	width: 982px;
 	margin: 0 auto;
 }
 
@@ -163,31 +163,31 @@ html[xmlns] .clearfix {
 -------------------------------------------------*/
 #header {
 	background: url(img/header.png) no-repeat center bottom;
-	padding: 30px 10px 110px;
+	padding: 30px 10px 114px;
 	position: relative;
 }
 #header #logo-container {
 	float: left;
 }
 #header #logo {
-	font: bold 3.7em/1em Arial, Helvetica, sans-serif;
+	font: bold 3.7em/1em Helvetica, Arial, sans-serif;
 	margin: 0 0 10px;
 	letter-spacing: -.08em;
-	color: #74685c;
+	color: #444;
 	text-shadow: 0 1px 0 #fff;
 }
 #header #logo, #header #logo a {
-	color: #74685c;
+	color: #444;
 	text-decoration: none;
 }
 #header #logo a:hover {
-	color: #ca6c18;
+	color: #666;
 }
 #header .description {
-	font: 1.4em/1em Arial, Helvetica, sans-serif;
+	font: 1.4em/1em Helvetica, Arial, sans-serif;
 	margin: 0 0 20px;
 	letter-spacing: -.04em;
-	color: #7c7268;
+	color: #555;
 	text-shadow: 0 1px 0 #fff;
 }
 #header .socialmedia {
@@ -218,7 +218,7 @@ html[xmlns] .clearfix {
 /* nav level1 */
 #nav {
 	position: absolute;
-	bottom: 54px;
+	bottom: 61px;
 	left: 30px;
 	list-style: none;
 	margin: 0;
@@ -233,7 +233,7 @@ html[xmlns] .clearfix {
 }
 #nav li a {
 	color: #fff;
-	font: bold 100%/100% Arial, Helvetica, sans-serif;
+	font: bold 100%/100% Helvetica, Arial, sans-serif;
 	padding: 9px 12px 10px 8px;
 	display: block;
 	text-decoration: none;
@@ -314,20 +314,20 @@ html[xmlns] .clearfix {
 
 #searchform {
 	position: absolute;
-	bottom: 57px;
-	right: 25px;
+	bottom: 63px;
+	right: 36px;
 	background: url(img/searchform.png) no-repeat;
 	width: 222px;
 	height: 26px;
 	padding: 5px 0 3px;
 }
 #searchform #s {
-	background: #332518;
+	background: transparent;
 	border: none;
 	font: italic 110% Georgia, "Times New Roman", Times, serif;
 	color: #ada8a3;
 	width: 168px;
-	padding: 2px 5px;
+	padding: 1px 5px;
 	margin-left: 30px;
 }
 #searchform #s:focus {
@@ -340,17 +340,17 @@ html[xmlns] .clearfix {
 /* content
 -------------------------------------------------*/
 #wrapper {
-	background: url(img/wrapper.png) center 5px;
+	background: url(img/wrapper.png) center -3px;
 	width: 100%;
 	min-height: 600px;
 	overflow: hidden;
-	padding-top: 8px;
+	padding-top: 3px;
 }
 
 #content {
 	float: left;
-	width: 520px;
-	margin-left: 15px;
+	width: 522px;
+	margin-left: 17px;
 	padding: 0 0 0 90px;
 }
 
@@ -359,22 +359,22 @@ html[xmlns] .clearfix {
 	clear: both;
 }
 .post-title {
-	font: bold 1.9em/1em Arial, Helvetica, sans-serif;
+	font: bold 1.9em/1em Helvetica, Arial, sans-serif;
 	letter-spacing: -.05em;
 	margin: 0 0 10px;
 	text-shadow: 0px 1px 4px #dfdfbb;
-	color: #644527;
+	color: #003555;
 }
 .post-title a {
 	text-decoration: none;
-	color: #644527;
+	color: #003555;
 }
 .post-title a:hover {
-	color: #ca6c18;
+	color: #38B1CF;
 }
 .post-date {
-	font: bold 1.2em/1em Arial, Helvetica, sans-serif;
-	color: #887057;
+	font: bold 1.2em/1em Helvetica, Arial, sans-serif;
+	color: #88B5C1;
 	margin: -30px 0 0 -96px;
 	padding: 0;
 	width: 80px;
@@ -383,16 +383,16 @@ html[xmlns] .clearfix {
 }
 .post-data {
 	margin: 0 0 20px;
-	font: bold .9em/1.3em Arial, Helvetica, sans-serif;
-	color: #b09473;
+	font: bold .9em/1.3em Helvetica, Arial, sans-serif;
+	color: #639FB0;
 }
 .post-data a {
-	color: #b09473;
+	color: #639FB0;
 	text-decoration: none;
 	padding-bottom: 4px;
 }
 .post-data a:hover {
-	color: #ca6c18;
+	color: #38B1CF;
 	text-decoration: none;
 }
 .post-data span {
@@ -425,7 +425,7 @@ html[xmlns] .clearfix {
 }
 
 .more-link {
-	font: bold 1em/1em Arial, Helvetica, sans-serif;
+	font: bold 1em/1em Helvetica, Arial, sans-serif;
 	background: url(img/more-link.png) no-repeat right 3px;
 	text-decoration: none;
 	padding: 0 12px 3px 0;
@@ -442,7 +442,7 @@ a.more-link:hover {
 	padding-top: 12px;
 }
 .post-nav a {
-	font: bold 1.2em/1.1em Arial, Helvetica, sans-serif;
+	font: bold 1.2em/1.1em Helvetica, Arial, sans-serif;
 	padding: 3px 0 12px;
 	display: block;
 	text-decoration: none;
@@ -473,7 +473,7 @@ a.more-link:hover {
 /* comments
 -------------------------------------------------*/
 #comments, #respond h4 {
-	font: bold 1.6em/1em Arial, Helvetica, sans-serif;
+	font: bold 1.6em/1em Helvetica, Arial, sans-serif;
 	padding: 15px 0 0;
 	margin: 5px 0 20px;
 	letter-spacing: -.04em;
@@ -503,7 +503,7 @@ a.more-link:hover {
 	font-size: .85em;
 }
 .comment-author cite {
-	font: bold normal 1.35em/1em Arial, Helvetica, sans-serif;
+	font: bold normal 1.35em/1em Helvetica, Arial, sans-serif;
 }
 .comment-author cite a {
 	text-decoration: none;
@@ -612,7 +612,7 @@ content:  close-quote;
 	right: 0;
 }
 #respond #cancel-comment-reply-link {
-	font: bold .9em/1em Arial, Helvetica, sans-serif;
+	font: bold .9em/1em Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
 	background: url(img/cancel-reply.png) no-repeat 0 3px;
 	padding: 2px 2px 2px 16px;
@@ -661,7 +661,7 @@ content:  close-quote;
 	width: 183px;
 	height: 35px;
 	border: none;
-	font: bold 1.05em/1em Arial, Helvetica, sans-serif;
+	font: bold 1.05em/1em Helvetica, Arial, sans-serif;
 	color: #fff;
 	text-shadow: 0 1px 2px #000;
 	cursor: pointer;
@@ -679,12 +679,12 @@ content:  close-quote;
 #sidebar {
 	width: 270px;
 	float: right;
-	margin-right: 35px;
+	margin-right: 47px;
 	font-size: .95em;
 	line-height: 1.5em;
 }
 #sidebar h4, #sidebar .widgettitle {
-	font: bold 1.5em/1em Arial, Helvetica, sans-serif;
+	font: bold 1.5em/1em Helvetica, Arial, sans-serif;
 	background: url(img/sidebar-dots.png) repeat-x 0 bottom;
 	padding: 0 0 10px;
 	margin: 0 0 10px;
@@ -739,7 +739,7 @@ content:  close-quote;
 #footer {
 	font-size: .9em;
 	background: url(img/footer.png) no-repeat center top;
-	padding: 108px 10px 30px;
+	padding: 115px 10px 30px;
 	clear: both;
 	width: auto;
 	overflow: hidden;
