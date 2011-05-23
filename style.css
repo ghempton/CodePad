@@ -1,11 +1,11 @@
 /*
-Theme Name: Notepad
-Theme URI: http://www.ndesign-studio.com/wp-themes/notepad
-Description: A notepad theme inspired by the iPhone's Notes.app
-Version: 1.2
-Tags: theme-options, translation-ready, two-columns, right-sidebar, fixed-width, threaded-comments, light, yellow
-Author: Nick La
-Author URI: http://www.ndesign-studio.com
+Theme Name: CodePad
+Theme URI: https://github.com/ghempton/CodePad
+Description: A coding centric graph paper theme based on http://www.ndesign-studio.com/wp-themes/notepad
+Version: 1.0
+Tags: theme-options, translation-ready, two-columns, right-sidebar, fixed-width, threaded-comments, green, blue, graph paper
+Author: Gordon L. Hempton
+Author URI: http://codebrief.com
 
 This theme is released under GPL: http://www.gnu.org/licenses/gpl.html
 
@@ -157,6 +157,17 @@ html[xmlns] .clearfix {
  
 * html .clearfix {
 	height: 1%;
+}
+
+.about-image {
+	padding: 3px;
+	background-color: white;
+	-moz-box-shadow: #777 0px 1px 2px 0;
+	-webkit-box-shadow: #777 0px 1px 2px 0;
+	-o-box-shadow: #777 0px 1px 2px 0;
+	box-shadow: #777 0px 1px 2px 0;
+	margin: 0 4px 2px 2px;
+	float: left;
 }
 
 /* header
@@ -467,6 +478,16 @@ a.more-link:hover {
 	background-position: right -574px;
 }
 
+.post-content a, .textwidget a {
+	text-decoration: none;
+	background-color: white;
+	-moz-box-shadow: #777 0px 1px 2px 0;
+	-webkit-box-shadow: #777 0px 1px 2px 0;
+	-o-box-shadow: #777 0px 1px 2px 0;
+	box-shadow: #777 0px 1px 2px 0;
+}
+
+
 /* content end
 -------------------------------------------------*/
 
@@ -767,11 +788,12 @@ content:  close-quote;
 	text-align: center;
 }
 img.alignleft, img.aligncenter, img.alignright, img.alignnone {
-	background: #fff;
-	border: solid 1px #d6d1c7;
-	padding: 5px;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
+	padding: 3px;
+	background-color: white;
+	-moz-box-shadow: #777 0px 1px 2px 0;
+	-webkit-box-shadow: #777 0px 1px 2px 0;
+	-o-box-shadow: #777 0px 1px 2px 0;
+	border: 0;
 }
 .alignleft {
 	float: left;
@@ -789,12 +811,13 @@ img.alignleft, img.aligncenter, img.alignright, img.alignnone {
 }
 .wp-caption {
 	text-align: center;
-	background: #fff;
-	border: solid 1px #d6d1c7;
+	background-color: white;
+	-moz-box-shadow: #777 0px 1px 2px 0;
+	-webkit-box-shadow: #777 0px 1px 2px 0;
+	-o-box-shadow: #777 0px 1px 2px 0;
+	border: 0;
 	padding: 5px 2px 0;
 	margin-bottom: 15px;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
 }
 .wp-caption-text {
 	font: italic 1em/1.3em Georgia, "Times New Roman", Times, serif;
@@ -804,3 +827,15 @@ img.alignleft, img.aligncenter, img.alignright, img.alignnone {
 
 /* wordpress post formating end
 -------------------------------------------------*/
+
+/* Plugin styling
+-------------------------------------------------*/
+
+.post-content .wp_syntax {
+	padding: 3px;
+	background-color: white;
+	-moz-box-shadow: #777 0px 1px 2px 0;
+	-webkit-box-shadow: #777 0px 1px 2px 0;
+	-o-box-shadow: #777 0px 1px 2px 0;
+	border: 0;
+}
