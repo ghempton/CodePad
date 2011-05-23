@@ -19,6 +19,7 @@
 }
 ?></title>
 
+<link href="<?php= get_bloginfo('stylesheet_directory') ?>/img/favicon.png" rel="shortcut icon" type="image/vnd.microsoft.icon" />
 <link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet" type="text/css" />
 
 <?php if ( is_single() || is_page() ) wp_enqueue_script( 'comment-reply' ); ?>
